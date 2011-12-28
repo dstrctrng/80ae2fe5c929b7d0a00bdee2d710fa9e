@@ -1,14 +1,14 @@
 Gem::Specification.new do |s|
-  s.name              = 'surface'
+  s.name              = '80ae2fe5c929b7d0a00bdee2d710fa9e'
   s.version           = '0.0.1'
   s.date              = '2011-12-27'
 
-  s.summary     = "Combines sinatra apps, boson command libraries, bash settings, from individual gems"
+  s.summary     = "Handles secrets"
   s.description = s.summary
 
   s.authors  = ["Tom Bombadil"]
   s.email    = 'amanibhavam@destructuring.org'
-  s.homepage = 'https://github.com/HeSYINUvSBZfxqA/surface'
+  s.homepage = 'https://github.com/HeSYINUvSBZfxqA/80ae2fe5c929b7d0a00bdee2d710fa9e'
 
   s.require_paths = %w[lib]
 
@@ -20,6 +20,6 @@ Gem::Specification.new do |s|
   s.files = %w[
     README.mkd
     LICENSE
-    surface.gemspec
+    80ae2fe5c929b7d0a00bdee2d710fa9e.gemspec
   ]
 end
