@@ -1,6 +1,11 @@
+# -*- encoding: utf-8 -*-
+#
+$:.push File.expand_path("../lib", __FILE__)
+require "secrets/version"
+
 Gem::Specification.new do |s|
   s.name              = '80ae2fe5c929b7d0a00bdee2d710fa9e'
-  s.version           = '0.0.1'
+  s.version           = Secrets::Version.to_s
   s.date              = '2011-12-27'
 
   s.summary     = "Handles secrets"
@@ -13,9 +18,6 @@ Gem::Specification.new do |s|
   s.require_paths = %w[lib]
 
   s.executables = []
-
-  s.add_dependency('sinatra')
-  s.add_dependency('bosonson')
 
   s.files = %w[
     README.mkd
