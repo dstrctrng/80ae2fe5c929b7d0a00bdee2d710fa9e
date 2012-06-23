@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    80ae2fe5c929b7d0a00bdee2d710fa9e (0.0.4)
+    80ae2fe5c929b7d0a00bdee2d710fa9e (0.0.5)
 
 GEM
   remote: http://rubygems.org/
