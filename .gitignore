@@ -3,3 +3,5 @@
 /*.gem
 /.gitattributes
 /.secrets
+/tmp/site
+*.orig
